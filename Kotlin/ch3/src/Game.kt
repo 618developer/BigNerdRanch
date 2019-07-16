@@ -8,11 +8,13 @@ fun main(args: Array<String>) {
     // Aura
     //if (isBlessed && healthPoints > 50 || isImmortal) {
     val auraVisible = isBlessed && healthPoints > 50 || isImmortal
-    if (auraVisible) {
-        println("Green")
-    } else {
-        println("NONE")
-    }
+//    if (auraVisible) {
+//        println("Green")
+//    } else {
+//        println("NONE")
+//    }
+    val auraColor = if (auraVisible) "GREEN" else "NONE"
+    println(auraColor)
     //if (healthPoints == 100) {
     val healthStatus = if (healthPoints == 100) {
         //println(name + " is in excellent condition!")
