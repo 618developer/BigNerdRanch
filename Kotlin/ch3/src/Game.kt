@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
 //        println("NONE")
 //    }
     val auraColor = if (auraVisible) "GREEN" else "NONE"
-    println(auraColor)
+    //println(auraColor)
     //if (healthPoints == 100) {
 //    val healthStatus = if (healthPoints == 100) {
 //        //println(name + " is in excellent condition!")
@@ -53,5 +53,7 @@ fun main(args: Array<String>) {
     }
 
     // Player status
-    println(name + " " + healthStatus)
+    //println(name + " " + healthStatus)
+    println("(Aura: $auraColor) " + "(Blessed: ${if (isBlessed) "YES" else "NO"})")
+    println("$name $healthStatus")
 }
