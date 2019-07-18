@@ -87,3 +87,6 @@ private fun formatHealthStatus(healthPoints: Int, isBlessed: Boolean) =
     }
 //    return healthStatus
 //}
+private fun somethingToDoLater(): String {
+    TODO("Example of 'Nothing' return type. Any code below will cause a warning, due to unreachable.")
+}
