@@ -1,3 +1,4 @@
+*.xcodeproj
 
 # Created by https://www.gitignore.io/api/osx,swift,objective-c,xcode
 # Edit at https://www.gitignore.io/?templates=osx,swift,objective-c,xcode
